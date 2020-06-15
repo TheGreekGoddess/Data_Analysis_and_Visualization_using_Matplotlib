@@ -46,29 +46,11 @@ Here are some final considerations:
 
 * See the [starter workbook](Pymaceuticals/pymaceuticals_starter.ipynb) for help on what modules to import and expected format of the notebook.
 
-## Hints and Considerations
+## Analysis and observations
+The study had almost identical number of female and male mice. It is unclear if the gender of the mice plays any role in how they react to the treatment.
 
-* Be warned: These are very challenging tasks. Be patient with yourself as you trudge through these problems. They will take time and there is no shame in fumbling along the way. Data visualization is equal parts exploration, equal parts resolution.
+The Capomulin regimen was found to be effective in reducing the average tumor volume in mice over a 45 day period.
 
-* You have been provided a starter notebook. Use the code comments as a reminder of steps to follow as you complete the assignment.
+Both Capomulin and Ramicane regimens appeared to be equally effective based on the average final tumor volume.
 
-* Don't get bogged down in small details. Always focus on the big picture. If you can't figure out how to get a label to show up correctly, come back to it. Focus on getting the core skeleton of your notebook complete. You can always revisit old problems.
-
-* While you are trying to complete this assignment, feel encouraged to constantly refer to Stack Overflow and the Pandas documentation. These are needed tools in every data analyst's tool belt.
-
-* Remember, there are many ways to approach a data problem. The key is to break up your task into micro tasks. Try answering questions like:
-
-  * How does my DataFrame need to be structured for me to have the right _x_-axis and _y_-axis?
-
-  * How do I build a basic scatter plot?
-
-  * How do I add a label to that scatter plot?
-
-  * Where would the labels for that scatter plot come from?
-
-  Again, don't let the magnitude of a programming task scare you off. Ultimately, every programming problem boils down to a handful of bite-sized tasks.
-
-* Get help when you need it! There is never any shame in asking. But, as always, ask a _specific_ question. You'll never get a great answer to "I'm lost."
-
-### Copyright
-Trilogy Education Services © 2019. All Rights Reserved.
+There is a positive correlation between the mouse weight and average tumor volume.
